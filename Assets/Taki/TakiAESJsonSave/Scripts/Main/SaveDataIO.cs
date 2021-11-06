@@ -153,8 +153,8 @@ namespace Taki.TakiAESJsonSave
         /// AESを使って文字列を暗号化します
         /// </summary>
         /// <param name="text">暗号化する文字列</param>
-        /// <param name="iv">対称アルゴリズムの初期ベクター</param>
-        /// <param name="key">対称アルゴリズムの共有鍵</param>
+        /// <param name="iv">初期化ベクトル</param>
+        /// <param name="key">暗号化キー</param>
         /// <returns>暗号化された文字列</returns>
         static string Encrypt(string text, string iv, string key)
         {
@@ -183,8 +183,8 @@ namespace Taki.TakiAESJsonSave
         /// AESを使って暗号文を復号します
         /// </summary>
         /// <param name="cipher">暗号化された文字列</param>
-        /// <param name="iv">対称アルゴリズムの初期ベクター</param>
-        /// <param name="key">対称アルゴリズムの共有鍵</param>
+        /// <param name="iv">初期化ベクトル</param>
+        /// <param name="key">暗号化キー</param>
         /// <returns>復号された文字列</returns>
         static string Decrypt(string cipher, string iv, string key)
         {
