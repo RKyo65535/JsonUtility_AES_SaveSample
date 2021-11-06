@@ -23,7 +23,7 @@ SaveDataIOが本体となっております。これと、セーブするイン�
 
 第二引数は、UnityのApplication.persistentDataPath+"/"以下のファイル名を入力する必要があります。
 
-C#のTaskを用いたAsyncバージョンもあります。
+C#のTaskを用いたAsyncバージョンもあります。(作りに自身はありませんが……)
 
 ### LoadPlayerData
 第一引数にはファイル名をとります。
@@ -31,7 +31,7 @@ C#のTaskを用いたAsyncバージョンもあります。
 返り値に取得したJSONのデータを指定した型で取り出します。
 失敗したらその方のデフォルト値が返ります(クラスだったら大体nullのはずです)。
 
-C#のTaskを用いたAsyncバージョンもあります。
+C#のTaskを用いたAsyncバージョンもあります。(作りに自身はありませんが……)
 
 ## SampleSaveClass
 セーブするクラスの例です。
